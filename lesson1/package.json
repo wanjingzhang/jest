@@ -1,0 +1,19 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0"
+  },
+  "dependencies": {
+    "axios": "0.19.0"
+  }
+}
